@@ -1,0 +1,13 @@
+.jatekter{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw;
+    gap: 1vw;
+    width: 62vw;
+    margin: auto;
+}
+
+.elem{
+    font-size: 15vw;
+    border: 1px solid gray;
+}
