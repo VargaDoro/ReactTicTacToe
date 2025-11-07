@@ -1,9 +1,12 @@
 import React from "react";
+import { JatekTerContext } from "../contexts/JatekTerContext";
+import { useContext } from 'react';
 
 export default function Elem(props) {
+  const { kattintas }=useContext(JatekTerContext)
   function katt() {
     /* a kattapp fv-t kéne meghíni */
-    props.katt(props.index)
+    kattintas(props.index)
   }
   return (
     <>
